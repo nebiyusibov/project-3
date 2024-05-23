@@ -1,0 +1,36 @@
+.main_header{
+    display: flex;
+    justify-content: center;
+    .main_nav{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        ul{
+            display: flex;
+            gap: 30px;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .basket_wishlist{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            i{
+                font-size: 20px;
+            }
+            button{
+                font-size: 17px;
+                font-weight: 600;
+                padding: 13px 30px;
+                border-radius: 30px;
+                border: 0px;
+                background-color: #7d1eff;
+                color: white;
+            }
+        }
+    }
+}

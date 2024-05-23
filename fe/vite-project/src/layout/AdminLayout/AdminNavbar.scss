@@ -1,0 +1,18 @@
+.admin_navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  margin-bottom: 50px;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 20px;
+  }
+}
+.adminpanel_table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
